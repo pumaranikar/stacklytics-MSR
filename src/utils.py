@@ -11,6 +11,7 @@ except:
     from urllib.parse import urlencode
 
 socks4_proxy = "proxy.jf.intel.com"
+url = "http://stackalytics.com/api/1.0/contribution?user_id="
 
 proxyDict = {
     "socks4": socks4_proxy
